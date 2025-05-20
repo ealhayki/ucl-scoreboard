@@ -25,8 +25,10 @@ body {
 .scores {
   display: flex;
   align-items: center;
-  padding: 1rem 3rem 0;
-  /* background-color: mediumvioletred; */
+  /* padding: 1rem 3rem 0; */
+  padding-left: 3rem;
+  padding-right: 3rem;
+  justify-content: center;
 }
 
 .seperator {
@@ -55,6 +57,7 @@ body {
   display: flex;
   justify-content: center;
   cursor: pointer;
+  margin-top: 1.5rem;
   /* background-color: mistyrose; */
 }
 .ucl-logo img {
@@ -88,12 +91,11 @@ body {
   .scores {
     /* background-color: aquamarine; */
     display: flex;
-    height: 1rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
   .team1-score,
   .team2-score {
-    font-size: 4rem;
+    font-size: 3rem;
     /* margin: 0.5rem 0; */
   }
   .team1-score {
@@ -105,15 +107,22 @@ body {
   .seperator {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    font-size: 2rem;
   }
   .team-logo img,
   .ucl-logo img {
-    width: 60px !important;
+    width: 50px !important;
   }
   .ucl-logo {
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
   .timer {
-    font-size: 2rem;
+    font-size: 24px;
+  }
+  .footer {
+    font-size: 12px;
+  }
+  .footer span {
+    font-size: 14px;
   }
 }
