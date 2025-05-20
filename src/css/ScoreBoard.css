@@ -7,6 +7,8 @@ body {
   /* background-color: blanchedalmond; */
   display: flex;
   justify-content: center;
+  color: whitesmoke;
+  background-color: #202020;
 }
 
 .score-board {
@@ -70,4 +72,48 @@ body {
   font-family: "Champions Bold", sans-serif;
   text-transform: uppercase;
   font-size: large;
+}
+
+@media (max-width: 900px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .score-board {
+    width: 350px;
+    padding: 0;
+    margin-top: 6rem;
+  }
+  .scores {
+    /* background-color: aquamarine; */
+    display: flex;
+    height: 1rem;
+    margin-top: 4rem;
+  }
+  .team1-score,
+  .team2-score {
+    font-size: 4rem;
+    /* margin: 0.5rem 0; */
+  }
+  .team1-score {
+    margin-left: 1rem;
+  }
+  .team2-score {
+    margin-right: 1rem;
+  }
+  .seperator {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .team-logo img,
+  .ucl-logo img {
+    width: 60px !important;
+  }
+  .ucl-logo {
+    margin-top: 4rem;
+  }
+  .timer {
+    font-size: 2rem;
+  }
 }
