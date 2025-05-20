@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Champions Bold";
+  src: url("../assets/fonts/Champions-Bold.ttf") format("truetype");
+}
+
+body {
+  /* background-color: blanchedalmond; */
+  display: flex;
+  justify-content: center;
+}
+
+.score-board {
+  font-family: "Champions Bold", sans-serif;
+  background-color: midnightblue;
+}
+
+.timer {
+  font-size: 3rem;
+  background-color: blue;
+  text-align: center;
+}
+
+.scores {
+  display: flex;
+  align-items: center;
+  padding: 1rem 3rem 0;
+  /* background-color: mediumvioletred; */
+}
+
+.seperator {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 4rem;
+}
+
+.team1-score {
+  margin-left: 2rem;
+  font-size: 8rem;
+  font-weight: bold;
+}
+.team2-score {
+  margin-right: 2rem;
+  font-size: 8rem;
+  font-weight: bold;
+}
+
+.team-logo {
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.ucl-logo {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  /* background-color: mistyrose; */
+}
+.ucl-logo img {
+  filter: brightness(0) invert(1);
+  margin-bottom: 1rem;
+}
+
+.footer {
+  /* background-color: lightblue; */
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 0.5rem;
+}
+.footer span {
+  font-family: "Champions Bold", sans-serif;
+  text-transform: uppercase;
+  font-size: large;
+}
